@@ -1,5 +1,5 @@
 #include "Grille.cpp"
-#include "Tictactoe.cpp"
+#include "Puissance4.cpp"
 #include <iostream>
 #include <string>
 
@@ -7,7 +7,7 @@
 int main(){
 
     bool partiegagnee = false;
-    Tictactoe jeu = Tictactoe();
+    Puissance4 jeu = Puissance4();
     int numeroCase;
 
     Grille maGrilleDeTest = Grille(7,6);
