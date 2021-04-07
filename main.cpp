@@ -10,19 +10,19 @@ int main(){
     Puissance4 jeu = Puissance4();
     int numeroCase;
 
-    Grille maGrilleDeTest = Grille(7,6);
-    maGrilleDeTest.affiche();
+    //Grille maGrilleDeTest = Grille(7,6);
+    //maGrilleDeTest.affiche();
 
-/*
+
     while(!partiegagnee && !jeu.testeJeuNul()){
         
         jeu.afficheGrille();
         std::cin >> numeroCase;
-        jeu.ajouteSymbole(numeroCase%3,numeroCase/3);
+        jeu.ajouteSymbole(numeroCase%7,numeroCase/600);
         partiegagnee = jeu.testeVictoireDiagonale() || jeu.testeVictoireHorizontale() || jeu.testeVictoireVerticale();
         jeu.finTour();
     }
-*/
+
     
     
     return 0;
